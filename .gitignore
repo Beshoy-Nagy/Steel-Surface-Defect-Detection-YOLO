@@ -1,0 +1,15 @@
+__pycache__/
+*.pyc
+
+runs/
+
+.ipynb_checkpoints/
+
+.venv/
+venv/
+
+.DS_Store
+
+images/
+labels/
+yolov8n.pt

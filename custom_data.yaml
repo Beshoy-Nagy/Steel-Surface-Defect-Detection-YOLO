@@ -1,0 +1,11 @@
+names:
+- crazing
+- inclusion
+- patches
+- pitted_surface
+- rolled-in_scale
+- scratches
+nc: 6
+path: /kaggle/input/datasets/beshoynagy/new-way/NEU-DET-DETECTION
+train: images/train
+val: images/val
