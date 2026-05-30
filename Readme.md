@@ -73,3 +73,14 @@ Training visualizations and evaluation metrics are available in the `visualizati
 **Beshoy Nagy**
 
 GitHub: https://github.com/Beshoy-Nagy
+## Application Interface
+
+![App Interface](Screenshots/App%20interface.jpeg)
+
+## Sample Detection
+
+![Test 1](Screenshots/Test_1.jpeg)
+
+## Results
+
+![Results](visualization/results.png)
