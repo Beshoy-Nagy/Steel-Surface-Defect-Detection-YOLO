@@ -1,78 +1,75 @@
-\# Steel Surface Defect Detection using YOLO
+# Steel Surface Defect Detection using YOLO
 
+A Computer Vision project for detecting and classifying steel surface defects using YOLO and Streamlit. The system identifies defects on steel surfaces and provides real-time predictions through an interactive web application.
 
+## Project Overview
 
-A Computer Vision project for detecting defects on steel surfaces using YOLO and Streamlit.
+This project was developed using the NEU Surface Defect Database and trained using YOLO for object detection. A Streamlit web interface was built to allow users to upload steel surface images and visualize detection results instantly.
 
+## Defect Classes
 
+The model detects the following six defect types:
 
-\## Features
+* Crazing
+* Inclusion
+* Patches
+* Pitted Surface
+* Rolled-in Scale
+* Scratches
 
+## Model Performance
 
+| Metric        | Score |
+| ------------- | ----- |
+| mAP@0.5       | 0.753 |
+| Precision     | 0.70  |
+| Recall        | 0.68  |
+| Best F1 Score | 0.67  |
 
-\- Detect 6 steel surface defects
+## Technologies Used
 
-\- Upload images through Streamlit interface
+* Python
+* YOLO (Ultralytics)
+* PyTorch
+* OpenCV
+* Streamlit
+* NumPy
 
-\- Real-time object detection
+## Project Structure
 
-\- Confidence score visualization
+```text
+.
+├── app.py
+├── models/
+│   └── best.pt
+├── Screenshots/
+├── visualization/
+├── requirements.txt
+└── README.md
+```
 
-
-
-\## Defect Classes
-
-
-
-\- crazing
-
-\- inclusion
-
-\- patches
-
-\- pitted\_surface
-
-\- rolled-in\_scale
-
-\- scratches
-
-
-
-\## Model Performance
-
-
-
-\- mAP@0.5: 0.753
-
-\- Precision: 0.70
-
-\- Recall: 0.68
-
-
-
-\## Technologies
-
-
-
-\- Python
-
-\- YOLO
-
-\- OpenCV
-
-\- Streamlit
-
-\- PyTorch
-
-
-
-\## Run
-
-
+## Installation
 
 ```bash
-
 pip install -r requirements.txt
+```
 
+## Run the Application
+
+```bash
 streamlit run app.py
+```
 
+## Application Interface
+
+Add screenshots from the `Screenshots` folder here.
+
+## Training Results
+
+Training visualizations and evaluation metrics are available in the `visualization` directory.
+
+## Author
+
+**Beshoy Nagy**
+
+GitHub: https://github.com/Beshoy-Nagy
